@@ -1,0 +1,12 @@
+{% extends 'web/content.html' %}
+
+{% block main %}
+<main>
+    <ul>
+        {% for robot in robots%}
+        <li><a href="{{ robot.slug }}">{{ robot.title }}</a></li>
+        {% endfor %}
+    </ul>
+</main>
+
+{% endblock %}

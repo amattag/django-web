@@ -1,0 +1,12 @@
+{% extends 'web/content.html' %}
+
+{% block main %}
+<main>
+    <ul>
+        <li><b>Título de la Noticia:</b> {{ new.title }}</li>
+        <li><b>Abstract:</b> {{ new.abstract }}</li>
+        <li><b>Contenido:</b> {{ new.description }}</li>
+    </ul>
+</main>
+
+{% endblock %}

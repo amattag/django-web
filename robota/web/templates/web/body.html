@@ -1,0 +1,13 @@
+{% extends 'web/html.html' %}
+
+{% block title %}Robota, Inc{% endblock %}
+
+{% block body %}
+<h1>Robota, Inc.</h1>
+<header>{% include 'web/header.html' %}</header>
+<main>{% block main%} {% endblock %}
+</main>
+<footer>{% include 'web/footer.html' %}</footer>
+{% endblock %}
+
+

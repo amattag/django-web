@@ -1,0 +1,13 @@
+{% extends 'web/content.html' %}
+
+{% block main %}
+<main>
+    <ul>
+        <li><b>Nombre del Robot:</b> {{ robot.title }}</li>
+        <li><b>Compañía que lo produce:</b> {{ robot.company }}</li>
+        <li><b>Año Producido:</b> {{ robot.year }}</li>
+        <li><b>Precio:</b> {{ robot.price }}</li>
+    </ul>
+</main>
+
+{% endblock %}
